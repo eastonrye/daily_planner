@@ -1,7 +1,7 @@
 class api {
   getAllTasks() {
     return $.ajax({
-      url: "../../../mockApi/tasks.json",
+      url: "https://my.api.mockaroo.com/tasks?key=ad374b80",
       method: "Get"
     });
   }
